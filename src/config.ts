@@ -47,6 +47,7 @@ export const siteConfig = {
       company: "EPAM Systems",
       title: "Senior iOS Developer",
       dateRange: "Jan 2026 - Present",
+      link: "https://www.epam.com",
       bullets: [
       ],
     },
@@ -54,6 +55,7 @@ export const siteConfig = {
       company: "Accenture",
       title: "Senior iOS Developer",
       dateRange: "Oct 2020 - Dec 2025",
+      link: "https://www.accenture.com/",
       bullets: [
           "Built a premium app for a luxury car brand with car connectivity, chat, and social media features.",
           "Enhanced an internal feedback app for a German car maker, adding multimedia feedback and boosting reliability.",
