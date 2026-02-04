@@ -28,12 +28,45 @@ import "../styles/global.css";
   <body>
     <Header />
     <section>
-      <Hero />
-      <About />
-      <Projects />
-      <Experience />
-      <Education />
+        <Hero />
+        
+        <section class="fade-up">
+          <About />
+        </section>
+
+        <section class="fade-up">
+          <Projects />
+        </section>
+
+        <section class="fade-up">
+          <Experience />
+        </section>
+
+        <section class="fade-up">
+          <Education />
+        </section>
     </section>
     <Footer />
+    <script type="module">
+      document.addEventListener("DOMContentLoaded", () => {
+        const sections = document.querySelectorAll(".fade-up");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target); // animate once
+              }
+            });
+          },
+          {
+            threshold: 0.2, // trigger when 20% visible
+          }
+        );
+
+        sections.forEach((section) => observer.observe(section));
+      });
+    </script>
   </body>
 </html>
