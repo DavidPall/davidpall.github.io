@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   aboutMe:
     "I am a passionate iOS developer who enjoys turning ideas into polished, user-centric mobile experiences. I thrive in collaborative environments but am equally comfortable taking ownership and delivering features independently. Strong communication and teamwork are among my key strengths — I naturally connect with teammates, often building great working relationships from day one. I’m deeply curious about new technologies in the Apple ecosystem and continuously eager to learn, refine my craft, and stay up to date with what excites me in iOS development.",
-  skills: ["Swift", "SwiftUI", "UIKit", "Combine", "CoreData", "Clean Swift", "SOLID", "CI/CD", "Swift Concyrency", "Scrum", "Scrum Master", "Swift Testing"],
+  skills: ["Swift", "SwiftUI", "UIKit", "Combine", "CoreData", "Clean Swift", "SOLID", "CI/CD", "Swift Concurrency", "Scrum", "Scrum Master", "Swift Testing"],
   projects: [
     {
       name: "Luxury Car Connectivity and Social Media App",
