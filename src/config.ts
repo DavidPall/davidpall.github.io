@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Senior iOS Developer",
   slogan: "Building seamless iOS experiences with Swift",
   description: "Portfolio website of David Pall",
-  accentColor: "#1d4ed8",
+  accentColor: "#078c74",
   social: {
     email: "davidpallatx@gmail.com",
     linkedin: "https://www.linkedin.com/in/david-pall",
